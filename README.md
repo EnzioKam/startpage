@@ -39,14 +39,3 @@ Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set
 * Note that the `//` comment on the first line of both files are required to be included.
 * The `autoconfig.js` file must use Unix end-of-line (LF), even on Windows. This can be done using a text editor such as VSCode.
 
-## Keybinds
-
-| Keybinding                  | Description    |
-| --------------------------  | -------------  |
-| <kbd>h</kbd>                | Toggle Help    |
-| <kbd>Space</kbd>            | Focus Search   |
-| <kbd>Esc / Ctrl + Space</kbd>              | Escape Search  |
-| <kbd>Shift + Q, A, Z</kbd>  | Media          |
-| <kbd>Shift + W, S, X</kbd>  | Mail           |
-| <kbd>Shift + E, D, C</kbd>  | Code           |
-| <kbd>Shift + R, F, V</kbd>  | Others         |
