@@ -6,7 +6,7 @@ Fork of startwave-page from https://github.com/Tobias-Schoch/startpage-wave/ wit
 
 Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set_a_custom_new_tab_page_in_firefox/ .
 
-### For Firefox 76
+### For Firefox 79
 
 1. Open the Firefox installation folder. Eg. `C:\Program Files\Mozilla Firefox\`
 2. Create a file named `autoconfig.cfg` .
@@ -23,7 +23,7 @@ Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set
    } catch(e){Cu.reportError(e);} // report errors in the Browser Console  
    ```
 
-3. Replace `"file:///PATH_TO_YOUR_START_PAGE.html"` with the path of the startpage html file. Eg. `"file:///C:/Users/User/Documents/firefox-start/startpage-wave/index.html"`
+3. Replace `"file:///PATH_TO_YOUR_START_PAGE.html"` with the path of the startpage html file. Eg. `"file:///C:/Users/User/Documents/firefox-start/startpage/index.html"`
 4. In the `"...\defaults\pref\"` folder, create a file called `autoconfig.js` .
 
    ``` js
