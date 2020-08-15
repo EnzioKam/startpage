@@ -8,7 +8,7 @@ Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set
 
 ### For Firefox 79
 
-1. Open the Firefox installation folder. Eg. `C:\Program Files\Mozilla Firefox\`
+1. Open the Firefox installation folder. You can check this with `whereis firefox`. Eg. `/usr/lib/firefox`
 2. Create a file named `autoconfig.cfg` .
 
    ``` js
@@ -23,8 +23,8 @@ Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set
    } catch(e){Cu.reportError(e);} // report errors in the Browser Console  
    ```
 
-3. Replace `"file:///PATH_TO_YOUR_START_PAGE.html"` with the path of the startpage html file. Eg. `"file:///C:/Users/User/Documents/firefox-start/startpage/index.html"`
-4. In the `"...\defaults\pref\"` folder, create a file called `autoconfig.js` .
+3. Replace `"file:///PATH_TO_YOUR_START_PAGE.html"` with the path of the startpage html file. Eg. `"file:///home/enzio/.mozilla/firefox/<profile>/startpage/index.html"`
+4. In the `".../defaults/pref/"` folder, create a file called `autoconfig.js` .
 
    ``` js
    //
@@ -37,7 +37,7 @@ Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set
 
 #### Some Notes
 * Note that the `//` comment on the first line of both files are required to be included.
-* The `autoconfig.js` file must use Unix end-of-line (LF), even on Windows. This can be done using a text editor such as Notepad++ or VSCode.
+* The `autoconfig.js` file must use Unix end-of-line (LF), even on Windows. This can be done using a text editor such as VSCode.
 
 ## Keybinds
 
