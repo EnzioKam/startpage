@@ -1,0 +1,117 @@
+ <html>
+ <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+	<title>Startpage</title>
+ </head>
+ <body>
+	<div class="container">
+		<span id="helpbox" onclick="toggleBox()">HELP</span>
+		<span id="help">
+			<div>
+				<table>
+					<tr>
+						<td>h</td>
+						<td>Toggle Help</td>
+					</tr>
+					<tr>
+						<td>Space</td>
+						<td>Focus Search</td>
+					</tr>
+					<tr>
+						<td>Esc / Ctrl + Space</td>
+						<td>Escape Search</td>
+					</tr>
+					<tr>
+						<td>Shift + Q, A, Z</td>
+						<td>Media</td>
+					</tr>
+					<tr>
+						<td>Shift + W, S, X</td>
+						<td>Mail</td>
+					</tr>
+					<tr>
+						<td>Shift + E, D, C</td>
+						<td>Code</td>
+					</tr>
+					<tr>
+						<td>Shift + R, F, V</td>
+						<td>Others</td>
+					</tr>
+				</table>
+			</div>
+		</span>
+
+		<div id="time" class="time"></div>
+		<div id="date" class="date"></div>
+		
+		<form method="GET" action="https://duckduckgo.com/">
+			<button type="submit" class="search-submit" value="Search" style="fill: white"></button>
+			<input id="search-bar" name="q" autocomplete="off" class="search-field" autofocus>
+		</form>
+		
+		<div class="box">
+			<div class="box-container">
+				<div class="heading">Media</div>
+				<a href="https://www.facebook.com/" target="_blank" id="box-1-link-1">
+					<div class="link" tabindex="2">Facebook</div>
+				</a>
+				<a href="https://www.youtube.com/" target="_blank" id="box-1-link-2">
+					<div class="link" tabindex="1">Youtube</div>
+				</a>
+				<a href="https://www.linkedin.com/" target="_blank" id="box-1-link-3">
+					<div class="link" tabindex="3">LinkedIn</div>
+				</a>
+			</div>
+			<div class="box-container">
+				<div class="heading">Mail</div>
+				<a href="https://mail.google.com/" target="_blank" id="box-2-link-1">
+					<div class="link" tabindex="5">Gmail</div>
+				</a>
+				<a href="https://outlook.com/u.nus.edu/" target="_blank" id="box-2-link-2">
+					<div class="link" tabindex="6">Outlook (NUS)</div>
+				</a>
+				<a href="https://outlook.live.com/" target="_blank" id="box-2-link-3">
+					<div class="link" tabindex="8">Outlook</div>
+				</a>
+			</div>
+			<div class="box-container">
+				<div class="heading">Code</div>
+				<a href="https://github.com/" target="_blank" id="box-3-link-1">
+					<div class="link" tabindex="9">GitHub</div>
+				</a>
+				<a href="https://github.com/EnzioKam/PSOJulia" target="_blank" id="box-3-link-2">
+					<div class="link" tabindex="16">PSOJulia</div>
+				</a>
+				<a href="https://docs.julialang.org/en/v1/" target="_blank" id="box-3-link-3">
+					<div class="link" tabindex="10">JuliaDocs</div>
+				</a>
+			</div>
+			<div class="box-container">
+				<div class="heading" >Others</div>
+				<a href="https://drive.google.com/drive/" target="_blank" id="box-4-link-1">
+					<div class="link" tabindex="13">GDrive</div>
+				</a>
+				<a href="https://www.reddit.com/" target="_blank" id="box-4-link-2">
+					<div class="link" tabindex="14">Reddit</div>
+				</a>
+				<a href="https://github.com/Jguer/yay/" target="_blank" id="box-4-link-3">
+					<div class="link" tabindex="14">Yay (AUR)</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="wave-container">
+		<div class="wave wave1"></div>
+		<div class="wave wave2"></div>
+		<div class="wave wave3"></div>
+		<div class="wave wave4"></div>
+	</div>
+	
+	<script src="script.js"></script>
+	
+ </body>
+ </html>
