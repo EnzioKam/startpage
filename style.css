@@ -12,7 +12,9 @@
 }
 
 body {
-    background-color: #434C5E;
+    background-image: url('background.jpg');
+    backdrop-filter: blur(8px);
+    background-position: center;
 }
 
 /* ------------- TRANSITIONS AND SHADOWS ------------- */
@@ -47,7 +49,7 @@ a, a:visited, a:hover {
 .container .time {
 	font-family: 'test';
 	font-size: 70px;
-    color: #88C0D0;
+    color: #D8DEE9;
 	margin-bottom: 30px;
 }
 
@@ -56,7 +58,7 @@ a, a:visited, a:hover {
 .container .date {
 	font-family: 'test';
 	font-size: 50px;
-    color: #88C0D0;
+    color: #D8DEE9;
 	margin-bottom: 30px;
 }
 
@@ -81,7 +83,7 @@ a, a:visited, a:hover {
 
 .container form .search-field {
 	width: 89%;
-	color: #88C0D0;
+	color: #D8DEE9;
 	font-size: 35px;
 	font-family: 'test';
 	bottom: -1px;
