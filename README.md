@@ -1,6 +1,6 @@
 # startpage-wave
 
-Fork of startwave-page from https://github.com/Tobias-Schoch/startpage-wave/ with some personal settings and changes. Some Javascript and CSS modifications for the help box are adapted from https://gitlab.com/Capuno/Decaux .
+Browser startpage originally inspired by startwave-page from https://github.com/Tobias-Schoch/startpage-wave/ with personal settings and changes. Some Javascript and CSS modifications for the help box are adapted from https://gitlab.com/Capuno/Decaux .
 
 ## Instructions
 
@@ -13,14 +13,14 @@ Original from https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set
 
    ``` js
    //
-   var {classes:Cc,interfaces:Ci,utils:Cu} = Components;  
+   var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
 
-   /* set new tab page */  
+   /* set new tab page */
    try {
-   Cu.import("resource:///modules/AboutNewTab.jsm");  
-   var newTabURL = "file:///PATH_TO_YOUR_START_PAGE.html";  
-   AboutNewTab.newTabURL = newTabURL;  
-   } catch(e){Cu.reportError(e);} // report errors in the Browser Console  
+   Cu.import("resource:///modules/AboutNewTab.jsm");
+   var newTabURL = "file:///PATH_TO_YOUR_START_PAGE.html";
+   AboutNewTab.newTabURL = newTabURL;
+   } catch(e){Cu.reportError(e);} // report errors in the Browser Console
    ```
 
 3. Replace `"file:///PATH_TO_YOUR_START_PAGE.html"` with the path of the startpage html file. Eg. `"file:///home/enzio/.mozilla/firefox/<profile>/startpage/index.html"`
