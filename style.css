@@ -12,7 +12,7 @@
 }
 
 body {
-	background-color: #131421;
+	background-color: #252934;
 	color: white;
 }
 
@@ -94,7 +94,7 @@ a, a:visited, a:hover {
 }
 
 .box .box-container {
-	background-color: #191a2a;
+	background-color: #2E3441;
 	width: 200px;
 	height: 260px;
 	float: left;
@@ -115,7 +115,7 @@ a, a:visited, a:hover {
 /* ------------- SEARCH STYLING ------------- */ 
 
 .container form {
-	background-color: #191a2a;
+	background-color: #2E3441;
 	border-radius: 5px;
 	width: 450px;
 	margin-bottom: 80px;
